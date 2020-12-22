@@ -2,8 +2,8 @@
 In recent years, biased and unbiased recursive partitioning algorithms have been applied to datasets from very different scopes, within fields of knowledge such as medicine, engineering or finance. In this work we will try to apply unbiased recursive partitioning to a set European companies listed on the stock exchange.
 
 In summary, Model-based recursive partitioning (MOB) is fitted following the next basic steps:
-1. Through the minimization of the objective function we obtain {θ^^} at the current node for all observations.
-2. Evaluate the stability of the estimated parameter with respect to all {Z_1, ⋯, 𝑍_P} partition variables. Yesthere is some instability select the variable {𝑍_j} associated with the greatest instability parameters, otherwise stop.
+1. Through the minimization of the objective function we obtain \begin{equation} θ^{^}\end{equation} at the current node for all observations.
+2. Evaluate the stability of the estimated parameter with respect to all \begin{equation} Z_{1}, ⋯, 𝑍_{P}\end{equation} partition variables. Yesthere is some instability select the variable \begin{equation} Z_{j}\end{equation} associated with the greatest instability parameters, otherwise stop.
 3. Calculate the locally minimizing  the objective function associated with each node split point , either for a fixed number oradaptive splits.
 4. Divide the node into child nodes and repeat the process.
 
