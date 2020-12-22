@@ -1,6 +1,8 @@
 # Mob-Applied
+
 In recent years, biased and unbiased recursive partitioning algorithms have been applied to datasets from very different scopes, within fields of knowledge such as medicine, engineering or finance. In this work we will try to apply unbiased recursive partitioning to a set European companies listed on the stock exchange.
 # Algorithm
+
 In summary, Model-based recursive partitioning **(MOB)** is fitted following the next basic steps:
 - 1. Through the minimization of the objective function we obtain the estimated coefficients at the current node for all observations.
 - 2. Evaluate the stability of the estimated parameter with respect to all  partition variables. Yesthere is some instability select the variable associated with the greatest instability parameters, otherwise stop.
@@ -9,6 +11,7 @@ In summary, Model-based recursive partitioning **(MOB)** is fitted following the
 
 
 # Data
+
 We will use data extracted from the **Amadeus** database. We will consider data from European companies for 2017, ordered by total assets. The data of each company will refer, on the one hand, to the particular accounting indicators of each company, such as leverage or operating margin, and on the other hand macroeconomic data of the country in which it is listed, such as the percentage growth of GDP or the unemployment rate. 
 
 - **1.Choosing a database** that would provide us with a reliable data set to the even complete. The Amadeus database contains complete information about 21 million companies in Europe.
@@ -26,3 +29,13 @@ We will use data extracted from the **Amadeus** database. We will consider data 
  
  
 In this repository, the advantages of model-based recursive partitioning (MOB) have been verified. It has also been observed how the estimation varies when the nature of the response variable changes, that is, by having a continuous, binary, or ordinal response variable. It has also been tested how MOB can fit different models in the terminal nodes such as Logit, Lineal model, or Random Forest.
+
+# References
+
+[1]     **Zeileis A, Hothorn T, Hornik K (2008).** *Model-Based Recursive Partitioning. Journal of
+Computational and Graphical Statistics*, 17(2), 492–514.
+
+[2]     **AMADEUS** *A database with comparable financial information on companies
+public and private in Europe(2010)*. Bureau van Dijk Electronic Publishing
+
+
