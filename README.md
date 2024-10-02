@@ -4,10 +4,10 @@ In recent years, biased and unbiased recursive partitioning algorithms have been
 # Algorithm
 
 In summary, Model-based recursive partitioning **(MOB)** is fitted following the next basic steps:
-- 1. Through the minimization of the objective function we obtain the estimated coefficients at the current node for all observations.
-- 2. Evaluate the stability of the estimated parameter with respect to all  partition variables. If there is some instability select the variable associated with the greatest instability parameters, otherwise stop.
-- 3. Calculate the locally minimizing  the objective function associated with each node split point , either for a fixed number of adaptive splits.
-- 4. Divide the node into child nodes and repeat the process. 
+- Through the minimization of the objective function we obtain the estimated coefficients at the current node for all observations.
+- Evaluate the stability of the estimated parameter with respect to all  partition variables. If there is some instability select the variable associated with the greatest instability parameters, otherwise stop.
+- Calculate the locally minimizing  the objective function associated with each node split point , either for a fixed number of adaptive splits.
+- Divide the node into child nodes and repeat the process. 
 
 
 # Data
