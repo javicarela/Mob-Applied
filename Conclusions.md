@@ -13,3 +13,4 @@ It can be concluded that **macroeconomic variables** such as the *Public deficit
 
 
 When triying to **predict the probability associated with each node**, it has been tried to, the variables stand out accountants, **individuals of each company**. *Total assets* (AsstT), *the standard deviation as volatility indicator* (St) and *profit margin* (Pmargin) have been found to be the most significant.
+
